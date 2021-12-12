@@ -1,0 +1,25 @@
+.top-header img {
+	width: 50px;
+	/* height: 80px; */
+	margin-top: 20px;
+}
+.top-header .content {
+	display: flex;
+	justify-content: space-between;
+}
+.content-social {
+	margin-top: 20px;
+	display: flex;
+}
+.social-item {
+	width: 46px;
+	height: 46px;
+	background-color: #000;
+	border-radius: 50%;
+	padding: 8px 15px;
+	font-size: 19px;
+	margin-right: 10px;
+}
+a {
+	color: #fff;
+}
