@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'Campton-light';
+	src: local('Gilroy'), url('../font/Campton-LightDEMO.otf') format('truetype');
+}
+@font-face {
+	font-family: 'Campton-bold';
+	src: local('Gilroy'), url('../font/Campton-BoldDEMO.otf') format('truetype');
+}
+body {
+	height: 100vh;
+}
 .top-header img {
 	width: 50px;
 	/* height: 80px; */
@@ -20,6 +31,130 @@
 	font-size: 19px;
 	margin-right: 10px;
 }
+.social-item a:hover {
+	color: #fff;
+}
 a {
 	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.bg-hero {
+	margin-top: 50px;
+}
+
+.bg-hero h5 {
+	font-family: 'Campton-light';
+	font-size: 24px;
+	font-weight: 400;
+	color: #5c5c5c;
+}
+.bg-hero h1 {
+	font-family: 'Campton-bold';
+	font-weight: bold;
+	width: 308px;
+	font-size: 37px;
+}
+
+.bg-hero a {
+	color: #000;
+	text-decoration: none;
+}
+.bg-hero a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.bg-hero p {
+	font-family: 'Campton-light';
+	font-weight: 700;
+	color: #5c5c5c;
+	width: 298px;
+	font-size: 16px;
+}
+
+.bg-hero img {
+	width: 298px;
+}
+/* .below-info {
+	margin-top: 10px;
+} */
+.arrow-container {
+	width: 50px;
+	margin: auto;
+}
+.arrow {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	transform: rotate(90deg);
+}
+.below-item {
+	padding: 20px;
+	text-align: center;
+	display: block;
+}
+.below-item img {
+	margin-bottom: 10px;
+}
+.below-item p {
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Campton-bold';
+}
+
+.below-item:nth-child(1) {
+	background-color: #f5f5f5;
+}
+.below-item:nth-child(2) {
+	background-color: #dfdede;
+}
+.below-item:nth-child(3) {
+	background-color: #d3d3d3;
+}
+
+@media (min-width: 1000px) {
+	.bg-hero h1 {
+		width: 602px;
+		font-size: 54px;
+	}
+	.bg-hero img {
+		width: 100%;
+	}
+	.bg-hero .text-first {
+		width: 448px;
+	}
+	.bg-hero .text-last {
+		width: 292px;
+	}
+	.arrow {
+		position: relative;
+		left: -90px;
+		top: 60px;
+		width: 39px;
+		margin: 0px;
+		padding: 0px;
+		transform: rotate(0deg);
+	}
+	.below-info {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1030;
+	}
+	.below-item {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.arrow-container {
+		width: 100%;
+	}
+
+	.below-item p {
+		font-size: 20px;
+		margin-bottom: 0px;
+		margin-top: 14px;
+	}
 }
