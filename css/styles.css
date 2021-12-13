@@ -23,19 +23,19 @@ body {
 	display: flex;
 }
 .social-item {
-	width: 46px;
-	height: 46px;
-	background-color: #000;
+	width: 35px;
+	height: 35px;
+	/* background-color: #000; */
 	border-radius: 50%;
-	padding: 8px 15px;
-	font-size: 19px;
-	margin-right: 10px;
+	padding: 6px 10px;
+	font-size: 18px;
+	/* margin-right: 5px; */
 }
 .social-item a:hover {
-	color: #fff;
+	color: #000;
 }
 a {
-	color: #fff;
+	color: #000;
 }
 a:hover {
 	text-decoration: none;
@@ -99,7 +99,7 @@ a:hover {
 	margin-bottom: 10px;
 }
 .below-item p {
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 600;
 	font-family: 'Campton-bold';
 }
@@ -124,9 +124,11 @@ a:hover {
 	}
 	.bg-hero .text-first {
 		width: 448px;
+		font-size: 18px;
 	}
 	.bg-hero .text-last {
 		width: 292px;
+		font-size: 18px;
 	}
 	.arrow {
 		position: relative;
@@ -146,7 +148,7 @@ a:hover {
 	}
 	.below-item {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 	}
 	.arrow-container {
 		width: 100%;
@@ -156,5 +158,6 @@ a:hover {
 		font-size: 20px;
 		margin-bottom: 0px;
 		margin-top: 14px;
+		margin-left: 20px;
 	}
 }
