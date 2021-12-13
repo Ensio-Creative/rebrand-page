@@ -113,6 +113,14 @@ a:hover {
 .below-item:nth-child(3) {
 	background-color: #d3d3d3;
 }
+/* Extra space by mister gab */
+.top-header img {
+	margin-left: 20px;
+}
+
+.bg-hero {
+	margin-left: 20px;
+}
 
 @media (min-width: 1000px) {
 	.bg-hero h1 {
@@ -160,5 +168,15 @@ a:hover {
 		margin-bottom: 0px;
 		margin-top: 14px;
 		margin-left: 12px;
+	}
+
+	/* Extra space by mister gab remove on desktop */
+
+	.top-header img {
+		margin-left: 0px;
+	}
+	
+	.bg-hero {
+		margin-left: 0px;
 	}
 }
