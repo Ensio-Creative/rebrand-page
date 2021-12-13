@@ -125,6 +125,7 @@ a:hover {
 	.bg-hero .text-first {
 		width: 448px;
 		font-size: 18px;
+		margin-top: 28px;
 	}
 	.bg-hero .text-last {
 		width: 292px;
@@ -158,6 +159,6 @@ a:hover {
 		font-size: 20px;
 		margin-bottom: 0px;
 		margin-top: 14px;
-		margin-left: 20px;
+		margin-left: 12px;
 	}
 }
